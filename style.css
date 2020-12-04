@@ -1,0 +1,279 @@
+
+
+/*** Header Area ***/
+
+body {
+	font-family: 'lato',sans-serif;
+}
+
+.header-section {
+	overflow: hidden;
+}
+
+.header-section .logo-section {
+	display: none;
+}
+.header-section .header-image img {
+	width: 100%;
+	height: auto;
+}
+.header-section .main-menu {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 20px;
+	width: 100%;
+}
+.main-menu ul li {
+	margin: 0 21px;
+}
+.main-menu ul li a {
+	text-transform: uppercase;
+	color: #4d4959;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+
+
+
+/*** Description Section ***/
+
+.section {
+	overflow: hidden;
+}
+
+.intro-section {
+	background-color: #F7F7F7;
+	padding: 100px 0;
+}
+.section .icon {
+	width: 50px;
+	height: 42px;
+}
+.section h2 {
+	color: #353738;	
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 3em;	
+}
+.section .content {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 15px;
+	line-height: 1.4em;
+}
+.content p {
+	olor: #848789;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.big-small {
+	max-height: 480px;
+	overflow: hidden;
+	position: relative;
+}
+.small-big {
+	max-height: 480px;
+	overflow: hidden;
+}
+.big-small-big {
+	max-height: 480px;
+	overflow: hidden;
+}
+.small-image{
+	background: url('images/vintage-bike-small.jpg') no-repeat;
+	background-size: 100% auto;
+	min-height: 184px;
+	background-position: bottom left;	
+}
+
+.big img,
+.small-image img {
+	width: 100%;
+	height: auto;
+}
+.section .big,
+.section .small{
+	padding: 0;
+	padding-right: 0;
+}
+
+.small-des {
+	padding: 40px 0 20px;
+}
+
+.small-des .content p:after {
+	content: '';
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	width: 50px;
+	height: 2px;
+	background: red;
+}
+.small-image {
+	position: relative;
+}
+.small-image:before {
+	content: '';
+	height: 0;
+	width: 0;
+	border-top: 10px solid red;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	left: 50%;
+	top: 10px;
+}
+
+.logo-section {
+	position: absolute;
+	z-index: 9999;
+	top: 50%;
+	left: 0;
+	margin-top: -59px;
+	width: 100%;
+
+}
+.logo-section img {
+	display: block;
+	width: 113px;
+	height: 118px;
+	margin: auto;
+}
+
+/******Tweet section*****/
+
+.tweet-section {
+	background: #F7F7F7;
+	padding: 100px 0;
+}
+
+.tweet-section .tweet-icon {
+	color: #56C7EF;
+	font-size: 30px;
+}
+
+.tweet-section h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+}
+.tweet-section h2 span {
+	font-size: 16px;
+	color: #CCCCCC;
+	margin-left: 10px;
+	letter-spacing: 3px;
+	font-weight: 400;
+}
+.tweet-section p {
+	font-family: 'lato',sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.5em;
+}
+
+/***portfolio-section***/
+
+.row {
+	overflow: hidden;
+}
+
+.button-area {
+		padding: 60px 0;
+		background: #282f35;
+		overflow: hidden;
+		text-align: center;
+}
+.button {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid #94979a;
+	padding: 10px 40px;
+}
+
+/****subscribe-section ****/
+
+.subscribe-section {
+	padding: 80px 0;
+	overflow: hidden;
+}
+
+
+
+/*****subscribe-section****/
+
+.subscribe-section {
+	padding: 100px 0;
+	text-align: center;
+	overflow: hidden;
+	font-family: tahoma;
+}
+.logo-area{
+	margin-bottom: 20px;
+}
+.logo-area h2 {
+	color: #666666;
+	font-size: 14px;
+	font-family: tahoma;
+	font-style: italic;
+}
+.subscribe-section form input[type="email"] {
+	padding: 20px 60px;
+	text-align: left;
+	font-style: italic;
+	text-transform: lowercase;
+	margin-right: 2px;
+	border: 1px solid #cccccc;
+}
+.subscribe-section form button{
+	background: #64c29e;
+	color: #ffffff;
+	padding: 20px 20px;
+	border: none;
+	
+}
+
+.footer-section {
+	background: #f7f7f7;
+	padding: 60px 0;
+	overflow: hidden;
+}
+.first-section p {
+	font-family: 'Lato', sans-serif;
+}
+.social-icons ul {
+	list-style: none;
+}
+.social-icons ul li {
+	display: inline;
+	margin-right: 5px;
+}
+
+.social-icons ul li a i{
+	background: #EDD3E0;
+	font-size: 16px;
+	color: #ffffff;
+	height: 20px;
+	width: 20px;
+	padding: 20px;
+	border-radius: 50%;
+	transition-duration: .5s;
+}
+.social-icons ul li a:hover i {
+	background: #3C549A;
+}
